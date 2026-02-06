@@ -1,0 +1,22 @@
+[general]
+name=BorderClassifier
+qgisMinimumVersion=3.0
+description=Classify borders as natural or artificial.
+version=0.1
+author=Alex Mueller
+email=amueller474@gmail.com
+about=Classify borders as natural or artificial.
+tracker=https://github.com/ajcm474/border_classifier/issues/new
+repository=https://github.com/ajcm474/border_classifier/
+# End of mandatory metadata
+
+hasProcessingProvider=no
+# Tags are comma separated with spaces allowed
+tags=python
+
+category=Plugins
+icon=icon.png
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
