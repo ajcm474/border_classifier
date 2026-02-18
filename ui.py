@@ -42,7 +42,7 @@ class BorderDockWidget(QtWidgets.QDockWidget):
             popup.exec_()
         else:
             try:
-                boundary_data = query_osm_boundary(search_text, datetime.time())
+                boundary_data = query_osm_boundary(search_text)
                 popup = SearchErrorDialog(self, str(boundary_data))
                 popup.exec_()
             except Exception as e:
